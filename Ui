@@ -319,7 +319,7 @@ function hoho:Window(hub, the_game_name, main_color)
 
 	GameName.Name = "GameName"
 	GameName.Parent = LeftTab
-	GameName.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	GameName.BackgroundColor3 = Color3.fromRGB(0, 30, 238)
 	GameName.BackgroundTransparency = 1.000
 	GameName.BorderSizePixel = 0
 	GameName.Position = UDim2.new(-0.00400000019, 0, 0.0199999996, 0)

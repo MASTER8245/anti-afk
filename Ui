@@ -201,7 +201,7 @@ function hoho:Window(hub, the_game_name, main_color)
 
 	Top_Bar.Name = "Top_Bar"
 	Top_Bar.Parent = DevGui
-	Top_Bar.BackgroundColor3 = main_color or Color3.fromRGB(0, 30, 238)
+	Top_Bar.BackgroundColor3 = main_color or Color3.fromRGB(0, 255, 127)
 	Top_Bar.BorderSizePixel = 0
 	Top_Bar.Position = UDim2.new(0.199795082, 0, 0.178649232, 0)
 	Top_Bar.Size = UDim2.new(0, 450, 0, 24)
@@ -291,7 +291,7 @@ function hoho:Window(hub, the_game_name, main_color)
 	Tabs.Name = "Tabs"
 	Tabs.Parent = LeftTab
 	Tabs.Active = true
-	Tabs.BackgroundColor3 = Color3.fromRGB(0, 30, 238)
+	Tabs.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 	Tabs.BackgroundTransparency = 1.000
 	Tabs.BorderSizePixel = 0
 	Tabs.Position = UDim2.new(0, 0, 0.128301889, 0)
@@ -319,7 +319,7 @@ function hoho:Window(hub, the_game_name, main_color)
 
 	GameName.Name = "GameName"
 	GameName.Parent = LeftTab
-	GameName.BackgroundColor3 = Color3.fromRGB(0, 30, 238)
+	GameName.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 	GameName.BackgroundTransparency = 1.000
 	GameName.BorderSizePixel = 0
 	GameName.Position = UDim2.new(-0.00400000019, 0, 0.0199999996, 0)
@@ -528,7 +528,7 @@ function hoho:Window(hub, the_game_name, main_color)
 	local tab_count = 0
 	local hoho_wind = {}
 	
-	function hoho_wind:Tab(tab name lol)
+	function hoho_wind:Tab(tab_name)
 		local TabFrame = Instance.new("ScrollingFrame")
 		local UIListLayout2 = Instance.new("UIListLayout")
 		tab_count = tab_count + 1 or 0
@@ -536,7 +536,7 @@ function hoho:Window(hub, the_game_name, main_color)
 		TabFrame.Name = this_ or "TabFrame"
 		TabFrame.Parent = RightTab
 		TabFrame.Active = true
-		TabFrame.BackgroundColor3 = Color3.fromRGB(0, 30, 238)
+		TabFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 		TabFrame.BackgroundTransparency = 1.000
 		TabFrame.BorderSizePixel = 0
 		TabFrame.Position = UDim2.new(0, 0, 0.00377358496, 0)
@@ -619,7 +619,7 @@ function hoho:Window(hub, the_game_name, main_color)
 
 			ButtenTemp.Name = "ButtenTemp"
 			ButtenTemp.Parent = TabFrame
-			ButtenTemp.BackgroundColor3 = main_color or Color3.fromRGB(0, 30, 238)
+			ButtenTemp.BackgroundColor3 = main_color or Color3.fromRGB(30, 255, 27)
 			ButtenTemp.BackgroundTransparency = 1.000
 			ButtenTemp.BorderColor3 = Color3.fromRGB(27, 42, 53)
 			ButtenTemp.BorderSizePixel = 0
@@ -724,7 +724,7 @@ function hoho:Window(hub, the_game_name, main_color)
 
 			ToggleTemp.Name = "ToggleTemp"
 			ToggleTemp.Parent = TabFrame
-			ToggleTemp.BackgroundColor3 = main_color or Color3.fromRGB(0, 30, 238)
+			ToggleTemp.BackgroundColor3 = main_color or Color3.fromRGB(30, 255, 27)
 			ToggleTemp.BackgroundTransparency = 1.000
 			ToggleTemp.BorderSizePixel = 0
 			ToggleTemp.Position = UDim2.new(0, 0, 0.265151501, 0)
@@ -829,7 +829,7 @@ function hoho:Window(hub, the_game_name, main_color)
 
 			SliderTemp.Name = "SliderTemp"
 			SliderTemp.Parent = TabFrame
-			SliderTemp.BackgroundColor3 = main_color or Color3.fromRGB(0, 30, 238)
+			SliderTemp.BackgroundColor3 = main_color or Color3.fromRGB(30, 255, 27)
 			SliderTemp.BackgroundTransparency = 1.000
 			SliderTemp.BorderSizePixel = 0
 			SliderTemp.Position = UDim2.new(0, 0, 0.265151501, 0)
@@ -941,7 +941,7 @@ function hoho:Window(hub, the_game_name, main_color)
 
 			DropTemp.Name = "DropTemp"
 			DropTemp.Parent = TabFrame
-			DropTemp.BackgroundColor3 = Color3.fromRGB(0, 30, 238)
+			DropTemp.BackgroundColor3 = Color3.fromRGB(30, 255, 27)
 			DropTemp.BackgroundTransparency = 1.000
 			DropTemp.BorderColor3 = Color3.fromRGB(27, 42, 53)
 			DropTemp.BorderSizePixel = 0
@@ -1112,14 +1112,14 @@ function hoho:Window(hub, the_game_name, main_color)
 
 			TypeZone.Name = "TypeZone"
 			TypeZone.Parent = TabFrame
-			TypeZone.BackgroundColor3 = Color3.fromRGB(0, 30, 238)
+			TypeZone.BackgroundColor3 = Color3.fromRGB(0, 255, 127)
 			TypeZone.BackgroundTransparency = 1.000
 			TypeZone.BorderSizePixel = 0
 			TypeZone.Size = UDim2.new(0, 307, 0, 27)
 
 			TextHere.Name = "TextHere"
 			TextHere.Parent = TypeZone
-			TextHere.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+			TextHere.BackgroundColor3 = Color3.fromRGB(30, 255, 27)
 			TextHere.BackgroundTransparency = 1.000
 			TextHere.BorderSizePixel = 0
 			TextHere.Position = UDim2.new(0.0122866556, 0, 0.113073282, 0)

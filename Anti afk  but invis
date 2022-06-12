@@ -1,10 +1,10 @@
 game.StarterGui:SetCore("SendNotification",  {
 
- Title = "Auto execute";
+ Title = "FUNIME ANTI AFK";
 
  Text = "Anti. Afk Loaded";
 
- Icon = "";
+ Icon = "rbxthumb://type=Asset&id=9888774574&w=150&h=150";
 
  Duration = 10;
 

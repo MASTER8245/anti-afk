@@ -536,7 +536,7 @@ function hoho:Window(hub, the_game_name, main_color)
 		TabFrame.Name = this_ or "TabFrame"
 		TabFrame.Parent = RightTab
 		TabFrame.Active = true
-		TabFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		TabFrame.BackgroundColor3 = Color3.fromRGB(0, 30, 238)
 		TabFrame.BackgroundTransparency = 1.000
 		TabFrame.BorderSizePixel = 0
 		TabFrame.Position = UDim2.new(0, 0, 0.00377358496, 0)

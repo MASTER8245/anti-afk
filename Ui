@@ -528,7 +528,7 @@ function hoho:Window(hub, the_game_name, main_color)
 	local tab_count = 0
 	local hoho_wind = {}
 	
-	function hoho_wind:Tab(tab_name)
+	function hoho_wind:Tab(tab name lol)
 		local TabFrame = Instance.new("ScrollingFrame")
 		local UIListLayout2 = Instance.new("UIListLayout")
 		tab_count = tab_count + 1 or 0
@@ -619,7 +619,7 @@ function hoho:Window(hub, the_game_name, main_color)
 
 			ButtenTemp.Name = "ButtenTemp"
 			ButtenTemp.Parent = TabFrame
-			ButtenTemp.BackgroundColor3 = main_color or Color3.fromRGB(0, 255, 127)
+			ButtenTemp.BackgroundColor3 = main_color or Color3.fromRGB(0, 30, 238)
 			ButtenTemp.BackgroundTransparency = 1.000
 			ButtenTemp.BorderColor3 = Color3.fromRGB(27, 42, 53)
 			ButtenTemp.BorderSizePixel = 0
@@ -724,7 +724,7 @@ function hoho:Window(hub, the_game_name, main_color)
 
 			ToggleTemp.Name = "ToggleTemp"
 			ToggleTemp.Parent = TabFrame
-			ToggleTemp.BackgroundColor3 = main_color or Color3.fromRGB(0, 255, 127)
+			ToggleTemp.BackgroundColor3 = main_color or Color3.fromRGB(0, 30, 238)
 			ToggleTemp.BackgroundTransparency = 1.000
 			ToggleTemp.BorderSizePixel = 0
 			ToggleTemp.Position = UDim2.new(0, 0, 0.265151501, 0)
@@ -829,7 +829,7 @@ function hoho:Window(hub, the_game_name, main_color)
 
 			SliderTemp.Name = "SliderTemp"
 			SliderTemp.Parent = TabFrame
-			SliderTemp.BackgroundColor3 = main_color or Color3.fromRGB(0, 255, 127)
+			SliderTemp.BackgroundColor3 = main_color or Color3.fromRGB(0, 30, 238)
 			SliderTemp.BackgroundTransparency = 1.000
 			SliderTemp.BorderSizePixel = 0
 			SliderTemp.Position = UDim2.new(0, 0, 0.265151501, 0)
@@ -941,7 +941,7 @@ function hoho:Window(hub, the_game_name, main_color)
 
 			DropTemp.Name = "DropTemp"
 			DropTemp.Parent = TabFrame
-			DropTemp.BackgroundColor3 = Color3.fromRGB(0, 255, 127)
+			DropTemp.BackgroundColor3 = Color3.fromRGB(0, 30, 238)
 			DropTemp.BackgroundTransparency = 1.000
 			DropTemp.BorderColor3 = Color3.fromRGB(27, 42, 53)
 			DropTemp.BorderSizePixel = 0
@@ -1112,7 +1112,7 @@ function hoho:Window(hub, the_game_name, main_color)
 
 			TypeZone.Name = "TypeZone"
 			TypeZone.Parent = TabFrame
-			TypeZone.BackgroundColor3 = Color3.fromRGB(0, 255, 127)
+			TypeZone.BackgroundColor3 = Color3.fromRGB(0, 30, 238)
 			TypeZone.BackgroundTransparency = 1.000
 			TypeZone.BorderSizePixel = 0
 			TypeZone.Size = UDim2.new(0, 307, 0, 27)

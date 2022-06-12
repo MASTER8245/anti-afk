@@ -291,7 +291,7 @@ function hoho:Window(hub, the_game_name, main_color)
 	Tabs.Name = "Tabs"
 	Tabs.Parent = LeftTab
 	Tabs.Active = true
-	Tabs.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	Tabs.BackgroundColor3 = Color3.fromRGB(0, 30, 238)
 	Tabs.BackgroundTransparency = 1.000
 	Tabs.BorderSizePixel = 0
 	Tabs.Position = UDim2.new(0, 0, 0.128301889, 0)

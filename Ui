@@ -195,13 +195,13 @@ function hoho:Window(hub, the_game_name, main_color)
 	local UICornerd = Instance.new("UICorner")
 
 
-	DevGui.Name = "Hoho_Hub"
+	DevGui.Name = "Lugia_X"
 	DevGui.Parent = game.CoreGui or game.Players.LocalPlayer:WaitForChild("PlayerGui")
 	DevGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
 	Top_Bar.Name = "Top_Bar"
 	Top_Bar.Parent = DevGui
-	Top_Bar.BackgroundColor3 = main_color or Color3.fromRGB(0, 255, 127)
+	Top_Bar.BackgroundColor3 = main_color or Color3.fromRGB(56, 56, 56)
 	Top_Bar.BorderSizePixel = 0
 	Top_Bar.Position = UDim2.new(0.199795082, 0, 0.178649232, 0)
 	Top_Bar.Size = UDim2.new(0, 450, 0, 24)
@@ -211,7 +211,7 @@ function hoho:Window(hub, the_game_name, main_color)
 	local TrueGame = Instance.new("TextLabel")
 	TrueGame.Name = "TrueGame"
 	TrueGame.Parent = Top_Bar
-	TrueGame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	TrueGame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 	TrueGame.BackgroundTransparency = 1.000
 	TrueGame.BorderSizePixel = 0
 	TrueGame.Position = UDim2.new(0.04933336, 0, 0.27000013, 0)
@@ -219,7 +219,7 @@ function hoho:Window(hub, the_game_name, main_color)
 	TrueGame.ZIndex = 4
 	TrueGame.Font = Enum.Font.Cartoon
 	TrueGame.Text = the_game_name or game.Name or "Game name"
-	TrueGame.TextColor3 = Color3.fromRGB(255, 255, 255)
+	TrueGame.TextColor3 = Color3.fromRGB(30, 255, 27)
 	TrueGame.TextScaled = true
 	TrueGame.TextSize = 14.000
 	TrueGame.TextStrokeTransparency = 0.100

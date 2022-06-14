@@ -311,7 +311,7 @@ function hoho:Window(hub, the_game_name, main_color)
 
 	line.Name = "line"
 	line.Parent = LeftTab
-	line.BackgroundColor3 = main_color or Color3.fromRGB(0, 255, 127)
+	line.BackgroundColor3 = main_color or Color3.fromRGB(0, 0, 0)
 	line.BorderSizePixel = 0
 	line.Position = UDim2.new(0, 0, 0.124528289, 0)
 	line.Size = UDim2.new(0, 123, 0, 1)
@@ -388,7 +388,7 @@ function hoho:Window(hub, the_game_name, main_color)
 	Minimize.ZIndex = 15
 	Minimize.Image = "rbxassetid://4373917715"
 	Minimize.HoverImage = "rbxassetid://848237313"
-	Minimize.ImageColor3 = Color3.fromRGB(0, 0, 0)
+	Minimize.ImageColor3 = Color3.fromRGB(30, 255, 27)
 	
 	Minimize.MouseButton1Click:Connect(function()
 		if openning == false then
@@ -544,7 +544,7 @@ function hoho:Window(hub, the_game_name, main_color)
 		TabFrame.Visible = false
 		TabFrame.ZIndex = 5
 		TabFrame.ScrollBarThickness = 5
-		TabFrame.ScrollBarImageColor3 = main_color or Color3.new(1, 1, 1)
+		TabFrame.ScrollBarImageColor3 = main_color or Color3.new(0, 0, 0)
 
 		UIListLayout2.Parent = TabFrame
 		UIListLayout2.Padding = UDim.new(0,3)

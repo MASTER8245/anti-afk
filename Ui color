@@ -1,6 +1,7 @@
 local Player = game:GetService("Players").LocalPlayer
 local Mouse = Player:GetMouse()
 
+
 local TextService = game:GetService("TextService")
 local TweenService = game:GetService("TweenService")
 local RunService = game:GetService("RunService")
@@ -43,7 +44,7 @@ local Themes = {
 	},
 	Dark = {
 		MainFrame = Color3.fromRGB(0,0,0),
-		Minimise = Color3.fromRGB(255, 0, 0),
+		Minimise = Color3.fromRGB(255,106,0),
 		MinimiseAccent = Color3.fromRGB(147,59,0),
 		Maximise = Color3.fromRGB(25,255,0),
 		MaximiseAccent = Color3.fromRGB(0,255,110),
